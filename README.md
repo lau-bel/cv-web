@@ -1,2 +1,2 @@
 
-Online resume of Laura Belferroum. You should hire me!
+Online resume of Laura Belferroum. 
