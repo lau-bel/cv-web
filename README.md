@@ -1,1 +1,2 @@
-Curriculum Vitae in React.js
+
+Online resume of Laura Belferroum. You should hire me!
