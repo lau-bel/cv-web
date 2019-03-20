@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Zeyada|Zilla+Slab');
+
+$color1 : #8482DF;
+$color2: #FFEEC3;
+$color3: black;
+
+$font1 : 'Zilla Slab', serif;
+$font2 : 'Quicksand', sans-serif;
+$font3 : 'Zeyada', cursive;
+
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+.stars, .twinkling {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:30%;
+  display:block;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+body {
+  background-color: $color3;
+  width: 100%;
+
+}
+
+  .mainElement{
+    position: absolute;
+    left: 620px;
+    top: 326px;
+    text-align: justify;
+
+  }
+  .quote {
+   color: $color1;
+   font-family: $font1;
+   font-size: 35px;
+  }
+  .author{
+    color: $color1;
+    font-family: $font3;
+    font-size: 25px;
+  }
+  .clickbait {
+    color: $color1;
+    font-family: $font1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: normal;
+    position: absolute;
+    left: 450px;
+    top: 150px;
+  }
+
+  .fox{
+    position: absolute;
+    width: 400.5px;
+    height: 340px;
+    left: 100px;
+    top: 200px;
+  }
+
+  .backgroundcolor{
+    filter : opacity(40%);
+
+  }
+
+  .backgroundtrees{
+    	width: 1100px;
+      max-height: 100%;
+      display: block;
+      margin: auto;
+  }
+
+  .photocv img {
+
+
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 194px;
+    top: 55px;
+    border-radius: 50%;
+
+  }
+  .contactbox{
+    position : absolute;
+    width: 372px;
+    height: 220px;
+    left: 750px;
+    top: 400px;
+    border : solid 1px $color1;
+    border-radius: 2px;
+    padding : 10px;
+
+    color : $color2;
+    font-family: $font2;
+
+    h1 {
+      margin-left: 230px;
+      font-family: $font1;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+    }
+
+  }
+
+.clickable {
+  margin-left: 210px;
+  margin-top: 20px;
+img {
+  padding-left: 30px;
+  width: 20px;
+}
+}
+
+.biotext{
+  width: 372px;
+  color : $color2;
+  font-family: $font2;
+  font-size: 14px;
+  position : absolute;
+  left: 80px;
+  top: 250px;
+  text-align: justify;
+
+
+  p{
+    font-weight: 100;
+
+  }
+
+}
+
+#triangle {
+    position: absolute;
+    margin-left: 850px;
+    margin-top: -400px;
+    width: 0;
+    height: 0;
+    border-left: 48px solid transparent;
+    border-right: 48px solid transparent;
+    border-bottom: 80px solid rgba(132, 130, 223, 0.52);
+}
+
+.subtitles {
+  position: absolute;
+  color : $color2;
+  font-family: $font1;
+  margin-top: -150px;
+  margin-left: 50px;
+}
+
+    #skills{
+      margin-left: 870px;
+      margin-top: -475px;
+  }
+
+
+
+  #volunteering{
+      margin-left: 845px;
+      margin-top: 25px;
+  }
+  #education{
+    margin-left: 1050px;
+    margin-top: 50px;
+  }
+  #softskills{
+    margin-left: 650px;
+    margin-top: -155px;
+  }
+  #interests{
+    margin-left: 650px;
+    margin-top: -85px;
+  }
+  #experiences{
+    margin-left: 1050px;
+    margin-top: 100px;
+  }
+
+  .skillsbox {
+    position: absolute;
+    color : $color2;
+    font-family: $font2;
+    margin-top: -400px;
+    border-radius: 10px;
+    padding: 20px;
+    left : 50px;
+    top : 640px;
+    width: 550px;
+    background-color: black;
+    text-align: justify;
+
+
+    h1 {
+      color : $color2;
+      font-family: $font1;
+      font-size: 18px;
+      border-left: solid 50px $color1;
+      padding-left: 20px;
+    }
+    ul {
+
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 100;
+
+    }
+    ul.border{
+      border-right: solid 2px $color1;
+      padding-right: 20px;
+    }
+    li {
+      list-style-type: none;
+    }
+    li:before {
+    	content: "- "; /* on affiche une chaîne de caractère */
+    }
+
+    p{
+      padding: 0 20px 0 20px;
+      font-size: 14px;
+
+    }
+
+  }
+
+  .becode{
+    position : absolute;
+    margin-top: -345px;
+    margin-left: 40px;
+
+  }
+  .master2{
+    position : absolute;
+    margin-top: -295px;
+    margin-left: 40px;
+  }
+
+  .master1{
+    position : absolute;
+    margin-top: -200px;
+    margin-left: 40px;
+  }
+
+  .bac{
+    position : absolute;
+    margin-top: -100px;
+    margin-left: 40px;
+  }
+
+
+  .experiencesbox {
+    position: absolute;
+    color : $color2;
+    font-family: $font2;
+    margin-top: -400px;
+    border-radius: 10px;
+    padding: 20px;
+    left : 50px;
+    top : 640px;
+    width: 550px;
+    background-color: black;
+    text-align: justify;
+
+    h1 {
+      color : $color2;
+      font-family: $font1;
+      font-size: 18px;
+      border-left: solid 50px $color1;
+      padding-left: 20px;
+    }
+
+    p{
+      padding: 0 20px 0 20px;
+      font-size: 14px;
+
+    }
+
+    img {
+      width: 400px;
+      margin-left : 50px;
+      margin-top : -30px;
+    }
+
+  }
