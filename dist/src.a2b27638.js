@@ -26452,7 +26452,9 @@ function (_React$Component) {
 exports.CvHome = CvHome;
 var _default = CvHome;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./images/picture.js":"src/components/images/picture.js","./contactbox.js":"src/components/contactbox.js","./skills.js":"src/components/skills.js","./education.js":"src/components/education.js","./experiences.js":"src/components/experiences.js","./volunteering.js":"src/components/volunteering.js","./interests.js":"src/components/interests.js","./softskills.js":"src/components/softskills.js","../../images/wordcloud.png":"images/wordcloud.png","../../images/timeline.png":"images/timeline.png","./MainBackground.js":"src/components/MainBackground.js","./bio.js":"src/components/bio.js","../style/app.scss":"src/style/app.scss"}],"src/components/Homepage.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./images/picture.js":"src/components/images/picture.js","./contactbox.js":"src/components/contactbox.js","./skills.js":"src/components/skills.js","./education.js":"src/components/education.js","./experiences.js":"src/components/experiences.js","./volunteering.js":"src/components/volunteering.js","./interests.js":"src/components/interests.js","./softskills.js":"src/components/softskills.js","../../images/wordcloud.png":"images/wordcloud.png","../../images/timeline.png":"images/timeline.png","./MainBackground.js":"src/components/MainBackground.js","./bio.js":"src/components/bio.js","../style/app.scss":"src/style/app.scss"}],"images/My_PDF.png":[function(require,module,exports) {
+module.exports = "/My_PDF.8fefb70d.png";
+},{}],"src/components/Homepage.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -26471,6 +26473,8 @@ var _wordcloud = _interopRequireDefault(require("../../images/wordcloud.png"));
 var _timeline = _interopRequireDefault(require("../../images/timeline.png"));
 
 var _photocv = _interopRequireDefault(require("../../images/photocv.jpg"));
+
+var _My_PDF = _interopRequireDefault(require("../../images/My_PDF.png"));
 
 var _linkedin = _interopRequireDefault(require("../../images/linkedin.png"));
 
@@ -26564,7 +26568,13 @@ function (_React$Component) {
         className: "biotext"
       }, _react.default.createElement("p", null, "After getting my Master's degree in History at Li\xE8ge University and working in different areas, I was looking for a new challenge. I\u2019m adaptive and curious so I decided to learn web development, and the front end side of it quickly became a new passion for me. It allows me to develop my creativity and keep on learning new things every day. Now, I\u2019m looking forward to working in a challenging and dynamic environment.")), _react.default.createElement("div", {
         className: "contactbox"
-      }, _react.default.createElement("h1", null, " CONTACT "), _react.default.createElement("p", null, " Laura Belferroum ", _react.default.createElement("br", null), _react.default.createElement("br", null), "Li\xE8ge, Belgium  ", _react.default.createElement("br", null), _react.default.createElement("br", null), "l.belferroum@gmail.com"), _react.default.createElement("div", {
+      }, _react.default.createElement("h1", null, " CONTACT "), _react.default.createElement("div", {
+        className: "qrcode"
+      }, _react.default.createElement("img", {
+        src: _My_PDF.default,
+        alt: "qrcodedl",
+        width: "100"
+      })), _react.default.createElement("br", null), _react.default.createElement("p", null, " Laura Belferroum ", _react.default.createElement("br", null), _react.default.createElement("br", null), "Li\xE8ge, Belgium  ", _react.default.createElement("br", null), _react.default.createElement("br", null), "l.belferroum@gmail.com"), _react.default.createElement("div", {
         className: "clickable"
       }, _react.default.createElement("a", {
         href: "https://www.linkedin.com/in/laura-belferroum-4a108a147/",
@@ -26621,7 +26631,7 @@ function (_React$Component) {
 exports.Homepage = Homepage;
 var _default = Homepage;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./images/Group.js":"src/components/images/Group.js","./CvHome.js":"src/components/CvHome.js","../../images/wordcloud.png":"images/wordcloud.png","../../images/timeline.png":"images/timeline.png","../../images/photocv.jpg":"images/photocv.jpg","../../images/linkedin.png":"images/linkedin.png","../../images/instagram.png":"images/instagram.png","../../images/github-logo.png":"images/github-logo.png","../style/app.scss":"src/style/app.scss"}],"src/index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./images/Group.js":"src/components/images/Group.js","./CvHome.js":"src/components/CvHome.js","../../images/wordcloud.png":"images/wordcloud.png","../../images/timeline.png":"images/timeline.png","../../images/photocv.jpg":"images/photocv.jpg","../../images/My_PDF.png":"images/My_PDF.png","../../images/linkedin.png":"images/linkedin.png","../../images/instagram.png":"images/instagram.png","../../images/github-logo.png":"images/github-logo.png","../style/app.scss":"src/style/app.scss"}],"src/index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -26704,7 +26714,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65079" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50869" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

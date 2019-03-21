@@ -153,7 +153,6 @@ body {
   .contactbox{
     position : absolute;
     width: 372px;
-    height: 220px;
     left: 750px;
     top: 400px;
     border : solid 1px $color1;
@@ -169,6 +168,10 @@ body {
       font-size: 24px;
       font-weight: bold;
       letter-spacing: 0.1em;
+    }
+
+    .qrcode{
+    float : right;
     }
 
     @media (max-width: 575.98px) {
@@ -632,4 +635,5 @@ img {
 
       }
     }
+
   }

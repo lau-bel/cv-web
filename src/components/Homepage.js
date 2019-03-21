@@ -5,6 +5,8 @@ import CvHome from './CvHome.js';
 import wordcloud from '../../images/wordcloud.png';
 import timeline from '../../images/timeline.png';
 import image from '../../images/photocv.jpg';
+import qrcode from '../../images/My_PDF.png';
+
 import Linkedin from "../../images/linkedin.png";
 import Instagram from "../../images/instagram.png";
 import Github from "../../images/github-logo.png";
@@ -76,13 +78,19 @@ export class Homepage extends React.Component {
 
                     <div className="contactbox">
                        <h1> CONTACT </h1>
-
+                       <div className = "qrcode">
+                       <img src = {qrcode} alt = "qrcodedl" width="100"/>
+                       </div>
+                       <br/>
                        <p> Laura Belferroum <br/>
                        <br/>
                             Liège, Belgium  <br/>
                             <br/>
                             l.belferroum@gmail.com
                        </p>
+
+
+
                            <div className="clickable">
                               <a href= "https://www.linkedin.com/in/laura-belferroum-4a108a147/" target="_blank"><img src={Linkedin} /></a>
                               <a href = "https://github.com/lau-bel" target="_blank"><img src={Github} /></a>
