@@ -85,6 +85,9 @@ body {
   left: 100px;
   top: 200px; }
 
+.fox:hover {
+  cursor: pointer; }
+
 .backgroundcolor {
   filter: opacity(40%); }
 
@@ -160,25 +163,43 @@ body {
   margin-left: 870px;
   margin-top: -475px; }
 
+#skills:hover {
+  cursor: pointer; }
+
 #volunteering {
   margin-left: 845px;
   margin-top: 25px; }
+
+#volunteering:hover {
+  cursor: pointer; }
 
 #education {
   margin-left: 1050px;
   margin-top: 50px; }
 
+#education:hover {
+  cursor: pointer; }
+
 #softskills {
   margin-left: 650px;
   margin-top: -155px; }
+
+#softskills:hover {
+  cursor: pointer; }
 
 #interests {
   margin-left: 650px;
   margin-top: -85px; }
 
+#interests:hover {
+  cursor: pointer; }
+
 #experiences {
   margin-left: 1050px;
   margin-top: 100px; }
+
+#experiences:hover {
+  cursor: pointer; }
 
 .skillsbox {
   position: absolute;
