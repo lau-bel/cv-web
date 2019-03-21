@@ -10,6 +10,9 @@ import Softskills from './softskills.js';
 
 
 
+import wordcloud from '../../images/wordcloud.png';
+import timeline from '../../images/timeline.png';
+
 import MainBackground from './MainBackground.js';
 import Bio from './bio.js';
 // import Roulette from './roulette.js';
@@ -39,7 +42,7 @@ export class CvHome extends React.Component {
           [state.activeTab] :false,
           activeTab : info
 
-          
+
 
         }));
       }
@@ -70,9 +73,13 @@ export class CvHome extends React.Component {
 
             <div>
 
+              <div className="cvhome" >
+
             <Picture />
 
             <Bio bio={this.state.bio} />
+
+            </div>
 
             <Skills skills={this.state.skills}/>
 
@@ -88,6 +95,9 @@ export class CvHome extends React.Component {
 
 
             </div>
+
+
+
       </div>
 )
   }

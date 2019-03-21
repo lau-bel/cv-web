@@ -26113,7 +26113,7 @@ function Experiences(props) {
     }
   }, _react.default.createElement("div", {
     className: "experiencesbox"
-  }, _react.default.createElement("h1", null, " EXPERIENCES "), _react.default.createElement("br", null), _react.default.createElement("p", null, " 23 april - 29 juni 2018 | Ath\xE9n\xE9e L\xE9onie de Waha (Li\xE8ge) ", _react.default.createElement("br", null), "Highschool history teacher"), _react.default.createElement("p", null, " 22 february - 29 march 2018 | Institut Communal Marius Renard (Anderlecht)", _react.default.createElement("br", null), "Highschool teacher in History, Philosophy & social studies."), _react.default.createElement("p", null, " 2015-2018 | Maison massin Bakery ", _react.default.createElement("br", null), "Sales Woman ", _react.default.createElement("br", null), "First as a student, then as a temporary worker."), _react.default.createElement("p", null, " 2007-2017 | Student jobs ", _react.default.createElement("br", null), "Several jobs such as saleswoman, museum guide, guarding.")));
+  }, _react.default.createElement("h1", null, " WORK EXPERIENCES "), _react.default.createElement("br", null), _react.default.createElement("p", null, " 23 april - 29 juni 2018 | Ath\xE9n\xE9e L\xE9onie de Waha (Li\xE8ge) ", _react.default.createElement("br", null), "Highschool history teacher"), _react.default.createElement("p", null, " 22 february - 29 march 2018 | Institut Communal Marius Renard (Anderlecht)", _react.default.createElement("br", null), "Highschool teacher in History, Philosophy & social studies."), _react.default.createElement("p", null, " 2015-2018 | Maison massin Bakery ", _react.default.createElement("br", null), "Sales Woman ", _react.default.createElement("br", null), "First as a student, then as a temporary worker."), _react.default.createElement("p", null, " 2007-2017 | Student jobs ", _react.default.createElement("br", null), "Several jobs such as saleswoman, museum guide, guarding.")));
 }
 
 var _default = Experiences;
@@ -26319,6 +26319,10 @@ var _interests = _interopRequireDefault(require("./interests.js"));
 
 var _softskills = _interopRequireDefault(require("./softskills.js"));
 
+var _wordcloud = _interopRequireDefault(require("../../images/wordcloud.png"));
+
+var _timeline = _interopRequireDefault(require("../../images/timeline.png"));
+
 var _MainBackground = _interopRequireDefault(require("./MainBackground.js"));
 
 var _bio = _interopRequireDefault(require("./bio.js"));
@@ -26422,9 +26426,11 @@ function (_React$Component) {
         onClick: function onClick() {
           return _this2.OpenInfo("softskills");
         }
-      }, " SOFT SKILLS "))), _react.default.createElement("div", null, _react.default.createElement(_picture.default, null), _react.default.createElement(_bio.default, {
+      }, " SOFT SKILLS "))), _react.default.createElement("div", null, _react.default.createElement("div", {
+        className: "cvhome"
+      }, _react.default.createElement(_picture.default, null), _react.default.createElement(_bio.default, {
         bio: this.state.bio
-      }), _react.default.createElement(_skills.default, {
+      })), _react.default.createElement(_skills.default, {
         skills: this.state.skills
       }), _react.default.createElement(_education.default, {
         education: this.state.education
@@ -26446,7 +26452,7 @@ function (_React$Component) {
 exports.CvHome = CvHome;
 var _default = CvHome;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./images/picture.js":"src/components/images/picture.js","./contactbox.js":"src/components/contactbox.js","./skills.js":"src/components/skills.js","./education.js":"src/components/education.js","./experiences.js":"src/components/experiences.js","./volunteering.js":"src/components/volunteering.js","./interests.js":"src/components/interests.js","./softskills.js":"src/components/softskills.js","./MainBackground.js":"src/components/MainBackground.js","./bio.js":"src/components/bio.js","../style/app.scss":"src/style/app.scss"}],"src/components/Homepage.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./images/picture.js":"src/components/images/picture.js","./contactbox.js":"src/components/contactbox.js","./skills.js":"src/components/skills.js","./education.js":"src/components/education.js","./experiences.js":"src/components/experiences.js","./volunteering.js":"src/components/volunteering.js","./interests.js":"src/components/interests.js","./softskills.js":"src/components/softskills.js","../../images/wordcloud.png":"images/wordcloud.png","../../images/timeline.png":"images/timeline.png","./MainBackground.js":"src/components/MainBackground.js","./bio.js":"src/components/bio.js","../style/app.scss":"src/style/app.scss"}],"src/components/Homepage.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -26459,6 +26465,18 @@ var _react = _interopRequireDefault(require("react"));
 var _Group = _interopRequireDefault(require("./images/Group.js"));
 
 var _CvHome = _interopRequireDefault(require("./CvHome.js"));
+
+var _wordcloud = _interopRequireDefault(require("../../images/wordcloud.png"));
+
+var _timeline = _interopRequireDefault(require("../../images/timeline.png"));
+
+var _photocv = _interopRequireDefault(require("../../images/photocv.jpg"));
+
+var _linkedin = _interopRequireDefault(require("../../images/linkedin.png"));
+
+var _instagram = _interopRequireDefault(require("../../images/instagram.png"));
+
+var _githubLogo = _interopRequireDefault(require("../../images/github-logo.png"));
 
 require("../style/app.scss");
 
@@ -26511,6 +26529,8 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return _react.default.createElement("div", null, _react.default.createElement("div", {
+        className: "homepage"
+      }, _react.default.createElement("div", {
         style: {
           display: this.state.showcv ? "none" : "block"
         }
@@ -26529,11 +26549,69 @@ function (_React$Component) {
         className: "author"
       }, " Dorothy Parker")), _react.default.createElement("div", {
         className: "clickbait"
-      }, " So click the fox! "))), _react.default.createElement("div", {
+      }, " So click the fox! ")))), _react.default.createElement("div", {
         style: {
           display: this.state.showcv ? "block" : "none"
         }
-      }, _react.default.createElement(_CvHome.default, null)));
+      }, _react.default.createElement(_CvHome.default, null)), _react.default.createElement("div", {
+        className: "mobileversion"
+      }, _react.default.createElement("div", {
+        className: "photocv"
+      }, _react.default.createElement("img", {
+        src: _photocv.default,
+        alt: "photo cv"
+      })), _react.default.createElement("div", {
+        className: "biotext"
+      }, _react.default.createElement("p", null, "After getting my Master's degree in History at Li\xE8ge University and working in different areas, I was looking for a new challenge. I\u2019m adaptive and curious so I decided to learn web development, and the front end side of it quickly became a new passion for me. It allows me to develop my creativity and keep on learning new things every day. Now, I\u2019m looking forward to working in a challenging and dynamic environment.")), _react.default.createElement("div", {
+        className: "contactbox"
+      }, _react.default.createElement("h1", null, " CONTACT "), _react.default.createElement("p", null, " Laura Belferroum ", _react.default.createElement("br", null), _react.default.createElement("br", null), "Li\xE8ge, Belgium  ", _react.default.createElement("br", null), _react.default.createElement("br", null), "l.belferroum@gmail.com"), _react.default.createElement("div", {
+        className: "clickable"
+      }, _react.default.createElement("a", {
+        href: "https://www.linkedin.com/in/laura-belferroum-4a108a147/",
+        target: "_blank"
+      }, _react.default.createElement("img", {
+        src: _linkedin.default
+      })), _react.default.createElement("a", {
+        href: "https://github.com/lau-bel",
+        target: "_blank"
+      }, _react.default.createElement("img", {
+        src: _githubLogo.default
+      })), _react.default.createElement("a", {
+        href: "https://www.instagram.com/utilisatrice42/",
+        target: "_blank"
+      }, _react.default.createElement("img", {
+        src: _instagram.default
+      })))), _react.default.createElement("div", {
+        className: "skillbox"
+      }, _react.default.createElement("h1", null, " TECHNICAL SKILLS "), _react.default.createElement("ul", {
+        className: "border"
+      }, " ", _react.default.createElement("li", null, " HTML5 "), _react.default.createElement("li", null, " CSS3 "), _react.default.createElement("li", null, " JavaScript "), _react.default.createElement("li", null, " Sass "), _react.default.createElement("li", null, " React.js "), _react.default.createElement("li", null, " Vue.js ")), _react.default.createElement("ul", {
+        className: "border"
+      }, _react.default.createElement("li", null, " Figma "), _react.default.createElement("li", null, " Github "), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("li", null, " Scrum Method "), _react.default.createElement("li", null, " Trello ")), _react.default.createElement("ul", null, _react.default.createElement("li", null, " Final cut pro "), _react.default.createElement("li", null, " File maker pro ")), _react.default.createElement("h1", null, " LANGUAGES "), _react.default.createElement("ul", null, _react.default.createElement("li", null, " English: B2 "), _react.default.createElement("li", null, " Dutch : A1 "), _react.default.createElement("li", null, " French : native speaker "))), _react.default.createElement("div", {
+        className: "educationbox"
+      }, _react.default.createElement("h1", null, " EDUCATION "), _react.default.createElement("img", {
+        src: _timeline.default,
+        alt: "image puces ul"
+      }), _react.default.createElement("p", {
+        className: "becode"
+      }, " 2018 - 2019 | Becode.org ", _react.default.createElement("br", null), "Intensive coding bootcamp"), _react.default.createElement("p", {
+        className: "master2"
+      }, " 2016-2017 | ULi\xE8ge", _react.default.createElement("br", null), "Master\u2019 s degree of history highschool teacher"), _react.default.createElement("p", {
+        className: "master1"
+      }, " 2013-2016 | ULi\xE8ge", _react.default.createElement("br", null), "Master\u2019s degree in Modern history, ", _react.default.createElement("br", null), "especially the contemporary history and women history."), _react.default.createElement("p", {
+        className: "bac"
+      }, " 2009-2013 | ULi\xE8ge", _react.default.createElement("br", null), "Bachelor\u2019s degree in History, especially Modern history.")), _react.default.createElement("div", {
+        className: "experiencebox"
+      }, _react.default.createElement("h1", null, " WORK EXPERIENCES "), _react.default.createElement("br", null), _react.default.createElement("p", null, " 23 april - 29 juni 2018 | Ath\xE9n\xE9e L\xE9onie de Waha (Li\xE8ge) ", _react.default.createElement("br", null), "Highschool history teacher"), _react.default.createElement("p", null, " 22 february - 29 march 2018 | Institut Communal Marius Renard (Anderlecht)", _react.default.createElement("br", null), "Highschool teacher in History, Philosophy & social studies."), _react.default.createElement("p", null, " 2015-2018 | Maison massin Bakery ", _react.default.createElement("br", null), "Sales Woman ", _react.default.createElement("br", null), "First as a student, then as a temporary worker."), _react.default.createElement("p", null, " 2007-2017 | Student jobs ", _react.default.createElement("br", null), "Several jobs such as saleswoman, museum guide, guarding.")), _react.default.createElement("div", {
+        className: "voluntbox"
+      }, _react.default.createElement("h1", null, " VOLUNTEERING "), _react.default.createElement("br", null), _react.default.createElement("p", null, " 2016 - 2018 | Collectif \"Et ta soeur!\"", _react.default.createElement("br", null), "Activist in a young women empowerment group."), _react.default.createElement("p", null, " 2017 | Vie F\xE9minine ", _react.default.createElement("br", null), "Volunteer as a french teacher for immigrant\u2019s women"), _react.default.createElement("p", null, " 2015-2016 | F\xE9d\xE9 ", _react.default.createElement("br", null), "Elected student representative ", _react.default.createElement("br", null))), _react.default.createElement("div", {
+        className: "interestbox"
+      }, _react.default.createElement("h1", null, " INTERESTS "), _react.default.createElement("br", null), _react.default.createElement("p", null, " Tae Bo"), _react.default.createElement("p", null, "Wool lover"), _react.default.createElement("p", null, " blogging ", _react.default.createElement("br", null))), _react.default.createElement("div", {
+        className: "softbox"
+      }, _react.default.createElement("h1", null, " SOFT SKILLS "), _react.default.createElement("br", null), _react.default.createElement("img", {
+        src: _wordcloud.default,
+        alt: "wordscloud"
+      }))));
     }
   }]);
 
@@ -26543,7 +26621,7 @@ function (_React$Component) {
 exports.Homepage = Homepage;
 var _default = Homepage;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./images/Group.js":"src/components/images/Group.js","./CvHome.js":"src/components/CvHome.js","../style/app.scss":"src/style/app.scss"}],"src/index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./images/Group.js":"src/components/images/Group.js","./CvHome.js":"src/components/CvHome.js","../../images/wordcloud.png":"images/wordcloud.png","../../images/timeline.png":"images/timeline.png","../../images/photocv.jpg":"images/photocv.jpg","../../images/linkedin.png":"images/linkedin.png","../../images/instagram.png":"images/instagram.png","../../images/github-logo.png":"images/github-logo.png","../style/app.scss":"src/style/app.scss"}],"src/index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -26626,7 +26704,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63306" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65079" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

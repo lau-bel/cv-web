@@ -10,12 +10,12 @@ function Experiences (props){
 
            <div className="experiencesbox" >
 
-            <h1> EXPERIENCES </h1>
+            <h1> WORK EXPERIENCES </h1>
              <br/>
               <p > 23 april - 29 juni 2018 | Athénée Léonie de Waha (Liège) <br/>
               Highschool history teacher
                </p>
-               
+
               <p > 22 february - 29 march 2018 | Institut Communal Marius Renard (Anderlecht)<br/>
               Highschool teacher in History, Philosophy & social studies.
               </p>

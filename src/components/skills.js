@@ -12,7 +12,7 @@ function Skills (props){
         <div style={{display: props.skills? "block" : "none"}}>
 
 
-           <div className="skillsbox"   >
+           <div className="skillsbox">
 
             <h1> TECHNICAL SKILLS </h1>
 
