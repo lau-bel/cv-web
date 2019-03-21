@@ -25997,15 +25997,18 @@ function (_React$Component) {
       }, _react.default.createElement("h1", null, " CONTACT "), _react.default.createElement("p", null, " Laura Belferroum ", _react.default.createElement("br", null), _react.default.createElement("br", null), "Li\xE8ge, Belgium  ", _react.default.createElement("br", null), _react.default.createElement("br", null), "l.belferroum@gmail.com"), _react.default.createElement("div", {
         className: "clickable"
       }, _react.default.createElement("a", {
-        href: "https://www.linkedin.com/in/laura-belferroum-4a108a147/"
+        href: "https://www.linkedin.com/in/laura-belferroum-4a108a147/",
+        target: "_blank"
       }, _react.default.createElement("img", {
         src: _linkedin.default
       })), _react.default.createElement("a", {
-        href: "https://github.com/lau-bel"
+        href: "https://github.com/lau-bel",
+        target: "_blank"
       }, _react.default.createElement("img", {
         src: _githubLogo.default
       })), _react.default.createElement("a", {
-        href: "https://www.instagram.com/utilisatrice42/"
+        href: "https://www.instagram.com/utilisatrice42/",
+        target: "_blank"
       }, _react.default.createElement("img", {
         src: _instagram.default
       })))));

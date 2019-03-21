@@ -54,9 +54,14 @@ $font3 : 'Zeyada', cursive;
   animation:move-twink-back 200s linear infinite;
 }
 
+
+
 body {
   background-color: $color3;
   width: 100%;
+  margin : 0;
+  padding : 0;
+  overflow: hidden;
 
 }
 
@@ -195,10 +200,12 @@ img {
     #skills{
       margin-left: 870px;
       margin-top: -475px;
-  }
 
-  #skills:hover{
+    &:hover{
     cursor: pointer;
+    opacity : 0.5;
+    }
+
   }
 
 
@@ -206,38 +213,42 @@ img {
   #volunteering{
       margin-left: 845px;
       margin-top: 25px;
-  }
-
-  #volunteering:hover{
+    &:hover{
     cursor: pointer;
+    opacity : 0.5;
+  }
   }
   #education{
     margin-left: 1050px;
     margin-top: 50px;
-  }
-  #education:hover{
+    &:hover{
     cursor: pointer;
+    opacity : 0.5;
+  }
   }
   #softskills{
     margin-left: 650px;
     margin-top: -155px;
-  }
-  #softskills:hover{
+    &:hover{
     cursor: pointer;
+    opacity : 0.5;
+  }
   }
   #interests{
     margin-left: 650px;
     margin-top: -85px;
-  }
-  #interests:hover{
+    &:hover{
     cursor: pointer;
+    opacity : 0.5;
+  }
   }
   #experiences{
     margin-left: 1050px;
     margin-top: 100px;
-  }
-  #experiences:hover{
+    &:hover{
     cursor: pointer;
+    opacity : 0.5;
+  }
   }
 
   .skillsbox {

@@ -21,9 +21,9 @@ export class Contactbox extends React.Component {
                 l.belferroum@gmail.com
            </p>
                <div className="clickable">
-                  <a href= "https://www.linkedin.com/in/laura-belferroum-4a108a147/"><img src={Linkedin} /></a>
-                  <a href = "https://github.com/lau-bel"><img src={Github} /></a>
-                  <a href = "https://www.instagram.com/utilisatrice42/"><img src={Instagram}  /></a>
+                  <a href= "https://www.linkedin.com/in/laura-belferroum-4a108a147/" target="_blank"><img src={Linkedin} /></a>
+                  <a href = "https://github.com/lau-bel" target="_blank"><img src={Github} /></a>
+                  <a href = "https://www.instagram.com/utilisatrice42/" target="_blank"><img src={Instagram}  /></a>
                </div>
 
         </div>

@@ -49,7 +49,10 @@
 
 body {
   background-color: black;
-  width: 100%; }
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
 
 .mainElement {
   position: absolute;
@@ -162,44 +165,44 @@ body {
 #skills {
   margin-left: 870px;
   margin-top: -475px; }
-
-#skills:hover {
-  cursor: pointer; }
+  #skills:hover {
+    cursor: pointer;
+    opacity: 0.5; }
 
 #volunteering {
   margin-left: 845px;
   margin-top: 25px; }
-
-#volunteering:hover {
-  cursor: pointer; }
+  #volunteering:hover {
+    cursor: pointer;
+    opacity: 0.5; }
 
 #education {
   margin-left: 1050px;
   margin-top: 50px; }
-
-#education:hover {
-  cursor: pointer; }
+  #education:hover {
+    cursor: pointer;
+    opacity: 0.5; }
 
 #softskills {
   margin-left: 650px;
   margin-top: -155px; }
-
-#softskills:hover {
-  cursor: pointer; }
+  #softskills:hover {
+    cursor: pointer;
+    opacity: 0.5; }
 
 #interests {
   margin-left: 650px;
   margin-top: -85px; }
-
-#interests:hover {
-  cursor: pointer; }
+  #interests:hover {
+    cursor: pointer;
+    opacity: 0.5; }
 
 #experiences {
   margin-left: 1050px;
   margin-top: 100px; }
-
-#experiences:hover {
-  cursor: pointer; }
+  #experiences:hover {
+    cursor: pointer;
+    opacity: 0.5; }
 
 .skillsbox {
   position: absolute;
