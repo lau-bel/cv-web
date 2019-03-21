@@ -37,7 +37,7 @@ $font3 : 'Zeyada', cursive;
   width:100%;
   height:30%;
   display:block;
-  @media (max-width: 767px) {
+  @media only screen and (max-width: 767px) {
 
     display : none;
   }
@@ -74,7 +74,7 @@ body {
     left: 620px;
     top: 326px;
     text-align: justify;
-  @media (max-width: 767px) {
+  @media only screen and (max-width: 767px) {
 
     display : none;
   }
@@ -108,7 +108,7 @@ body {
     height: 340px;
     left: 100px;
     top: 200px;
-    @media (max-width: 767px) {
+    @media only screen and  (max-width: 767px) {
 
       display : none;
     }
@@ -139,7 +139,7 @@ body {
     top: 55px;
     border-radius: 50%;
 
-    @media (max-width: 767px) {
+    @media only screen and (max-width: 767px) {
 
     display : block;
     position : inherit;
@@ -174,7 +174,7 @@ body {
     float : right;
     }
 
-    @media (max-width: 767px) {
+    @media only screen and (max-width: 767px) {
 
     display : block;
     position : inherit;
@@ -210,7 +210,7 @@ img {
 
   }
 
-  @media (max-width: 767px) {
+  @media only screen and (max-width: 767px) {
 
     display : block;
     position : inherit;
@@ -422,7 +422,7 @@ img {
   .mobileversion {
     display : none;
 
-    @media (max-width: 767px) {
+    @media only screen and  (max-width: 767px) {
 
       display : block;
       position : inherit;
@@ -433,7 +433,7 @@ img {
   }
 
 
-    @media (max-width: 767px) {
+    @media only screen and (max-width: 767px) {
 
       .cvhome{
         display : none;
