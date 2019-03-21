@@ -1,0 +1,264 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Quicksand|Zeyada|Zilla+Slab");
+@keyframes move-twink-back {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: -10000px 5000px; } }
+
+@-webkit-keyframes move-twink-back {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: -10000px 5000px; } }
+
+@-moz-keyframes move-twink-back {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: -10000px 5000px; } }
+
+@-ms-keyframes move-twink-back {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: -10000px 5000px; } }
+
+.stars, .twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  display: block; }
+
+.stars {
+  background: #000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index: 0; }
+
+.twinkling {
+  background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index: 1;
+  -moz-animation: move-twink-back 200s linear infinite;
+  -ms-animation: move-twink-back 200s linear infinite;
+  -o-animation: move-twink-back 200s linear infinite;
+  -webkit-animation: move-twink-back 200s linear infinite;
+  animation: move-twink-back 200s linear infinite; }
+
+body {
+  background-color: black;
+  width: 100%; }
+
+.mainElement {
+  position: absolute;
+  left: 620px;
+  top: 326px;
+  text-align: justify; }
+
+.quote {
+  color: #8482DF;
+  font-family: "Zilla Slab", serif;
+  font-size: 35px; }
+
+.author {
+  color: #8482DF;
+  font-family: "Zeyada", cursive;
+  font-size: 25px; }
+
+.clickbait {
+  color: #8482DF;
+  font-family: "Zilla Slab", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: normal;
+  position: absolute;
+  left: 450px;
+  top: 150px; }
+
+.fox {
+  position: absolute;
+  width: 400.5px;
+  height: 340px;
+  left: 100px;
+  top: 200px; }
+
+.backgroundcolor {
+  filter: opacity(40%); }
+
+.backgroundtrees {
+  width: 1100px;
+  max-height: 100%;
+  display: block;
+  margin: auto; }
+
+.photocv img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 194px;
+  top: 55px;
+  border-radius: 50%; }
+
+.contactbox {
+  position: absolute;
+  width: 372px;
+  height: 220px;
+  left: 750px;
+  top: 400px;
+  border: solid 1px #8482DF;
+  border-radius: 2px;
+  padding: 10px;
+  color: #FFEEC3;
+  font-family: "Quicksand", sans-serif; }
+  .contactbox h1 {
+    margin-left: 230px;
+    font-family: "Zilla Slab", serif;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em; }
+
+.clickable {
+  margin-left: 210px;
+  margin-top: 20px; }
+  .clickable img {
+    padding-left: 30px;
+    width: 20px; }
+
+.biotext {
+  width: 372px;
+  color: #FFEEC3;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  position: absolute;
+  left: 80px;
+  top: 250px;
+  text-align: justify; }
+  .biotext p {
+    font-weight: 100; }
+
+#triangle {
+  position: absolute;
+  margin-left: 850px;
+  margin-top: -400px;
+  width: 0;
+  height: 0;
+  border-left: 48px solid transparent;
+  border-right: 48px solid transparent;
+  border-bottom: 80px solid rgba(132, 130, 223, 0.52); }
+
+.subtitles {
+  position: absolute;
+  color: #FFEEC3;
+  font-family: "Zilla Slab", serif;
+  margin-top: -150px;
+  margin-left: 50px; }
+
+#skills {
+  margin-left: 870px;
+  margin-top: -475px; }
+
+#volunteering {
+  margin-left: 845px;
+  margin-top: 25px; }
+
+#education {
+  margin-left: 1050px;
+  margin-top: 50px; }
+
+#softskills {
+  margin-left: 650px;
+  margin-top: -155px; }
+
+#interests {
+  margin-left: 650px;
+  margin-top: -85px; }
+
+#experiences {
+  margin-left: 1050px;
+  margin-top: 100px; }
+
+.skillsbox {
+  position: absolute;
+  color: #FFEEC3;
+  font-family: "Quicksand", sans-serif;
+  margin-top: -400px;
+  border-radius: 10px;
+  padding: 20px;
+  left: 50px;
+  top: 640px;
+  width: 550px;
+  background-color: black;
+  text-align: justify; }
+  .skillsbox h1 {
+    color: #FFEEC3;
+    font-family: "Zilla Slab", serif;
+    font-size: 18px;
+    border-left: solid 50px #8482DF;
+    padding-left: 20px; }
+  .skillsbox ul {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 100; }
+  .skillsbox ul.border {
+    border-right: solid 2px #8482DF;
+    padding-right: 20px; }
+  .skillsbox li {
+    list-style-type: none; }
+  .skillsbox li:before {
+    content: "- ";
+    /* on affiche une chaîne de caractère */ }
+  .skillsbox p {
+    padding: 0 20px 0 20px;
+    font-size: 14px; }
+
+.becode {
+  position: absolute;
+  margin-top: -345px;
+  margin-left: 40px; }
+
+.master2 {
+  position: absolute;
+  margin-top: -295px;
+  margin-left: 40px; }
+
+.master1 {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 40px; }
+
+.bac {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 40px; }
+
+.experiencesbox {
+  position: absolute;
+  color: #FFEEC3;
+  font-family: "Quicksand", sans-serif;
+  margin-top: -400px;
+  border-radius: 10px;
+  padding: 20px;
+  left: 50px;
+  top: 640px;
+  width: 550px;
+  background-color: black;
+  text-align: justify; }
+  .experiencesbox h1 {
+    color: #FFEEC3;
+    font-family: "Zilla Slab", serif;
+    font-size: 18px;
+    border-left: solid 50px #8482DF;
+    padding-left: 20px; }
+  .experiencesbox p {
+    padding: 0 20px 0 20px;
+    font-size: 14px; }
+  .experiencesbox img {
+    width: 400px;
+    margin-left: 50px;
+    margin-top: -30px; }
+
+
+/*# sourceMappingURL=/src.a2b27638.css.map */
