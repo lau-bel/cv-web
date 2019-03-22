@@ -13,7 +13,7 @@ import Softskills from './softskills.js';
 import wordcloud from '../../images/wordcloud.png';
 import timeline from '../../images/timeline.png';
 
-import MainBackground from './MainBackground.js';
+//import MainBackground from './MainBackground.js';
 import Bio from './bio.js';
 // import Roulette from './roulette.js';
 
@@ -50,36 +50,17 @@ export class CvHome extends React.Component {
 
   render(){
       return(
-      <div>
+
             <div className="cvhome" >
+            <div className="cvhome1" >
 
-                <MainBackground />
 
-                <Contactbox/>
-
-                <div className ="subtitles">
-                      <div id="triangle">
-                      </div>
-                      <p id="skills" onClick={() => this.OpenInfo("skills")}> SKILLS </p>
-                      <p id="education" onClick={() => this.OpenInfo("education")}> EDUCATION </p>
-                      <p id="experiences" onClick={() => this.OpenInfo("experiences")}> EXPERIENCES </p>
-                      <p id="volunteering" onClick={() => this.OpenInfo("volunteering")}> VOLUNTEERING </p>
-                      <p id="interests" onClick={() => this.OpenInfo("interests")}> INTERESTS </p>
-                      <p id="softskills" onClick={() => this.OpenInfo("softskills")}> SOFT SKILLS </p>
-
-                </div>
-
-            </div>
-
-            <div>
-
-              <div className="cvhome" >
+            <div className="leftbox" >
 
             <Picture />
 
             <Bio bio={this.state.bio} />
 
-            </div>
 
             <Skills skills={this.state.skills}/>
 
@@ -92,13 +73,39 @@ export class CvHome extends React.Component {
             <Interests interests={this.state.interests}/>
 
             <Softskills softskills={this.state.softskills}/>
+            </div>
 
+
+            <div className ="rightbox">
+
+
+
+
+                <div className ="subtitles">
+                      <p id="skills" onClick={() => this.OpenInfo("skills")}> SKILLS </p>
+                      <p id="education" onClick={() => this.OpenInfo("education")}> EDUCATION </p>
+                      <p id="softskills" onClick={() => this.OpenInfo("softskills")}> SOFT SKILLS </p>
+
+
+                      <div id="triangle">
+                      </div>
+                      <p id="experiences" onClick={() => this.OpenInfo("experiences")}> EXPERIENCES </p>
+                      <p id="volunteering" onClick={() => this.OpenInfo("volunteering")}> VOLUNTEERING </p>
+                      <p id="interests" onClick={() => this.OpenInfo("interests")}> INTERESTS </p>
+
+                </div>
+                <Contactbox/>
+
+
+                </div>
+
+
+
+</div>
 
             </div>
 
 
-
-      </div>
 )
   }
 

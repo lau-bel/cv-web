@@ -25871,7 +25871,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/components/images/picture.js":[function(require,module,exports) {
+},{"./../../images/Polygon.png":[["Polygon.09915bfe.png","images/Polygon.png"],"images/Polygon.png"],"_css_loader":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/components/images/picture.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -26203,72 +26203,7 @@ function Softskills(props) {
 
 var _default = Softskills;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../style/app.scss":"src/style/app.scss","../../images/wordcloud.png":"images/wordcloud.png"}],"images/Polygon.png":[function(require,module,exports) {
-module.exports = "/Polygon.09915bfe.png";
-},{}],"src/components/MainBackground.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = exports.MainBackground = void 0;
-
-var _Polygon = _interopRequireDefault(require("../../images/Polygon.png"));
-
-var _react = _interopRequireDefault(require("react"));
-
-require("../style/app.scss");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-var MainBackground =
-/*#__PURE__*/
-function (_React$Component) {
-  _inherits(MainBackground, _React$Component);
-
-  function MainBackground() {
-    _classCallCheck(this, MainBackground);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(MainBackground).apply(this, arguments));
-  }
-
-  _createClass(MainBackground, [{
-    key: "render",
-    value: function render() {
-      return _react.default.createElement("div", {
-        className: "backgroundcolor"
-      }, _react.default.createElement("img", {
-        className: "backgroundtrees",
-        src: _Polygon.default
-      }));
-    }
-  }]);
-
-  return MainBackground;
-}(_react.default.Component);
-
-exports.MainBackground = MainBackground;
-var _default = MainBackground;
-exports.default = _default;
-},{"../../images/Polygon.png":"images/Polygon.png","react":"node_modules/react/index.js","../style/app.scss":"src/style/app.scss"}],"src/components/bio.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../style/app.scss":"src/style/app.scss","../../images/wordcloud.png":"images/wordcloud.png"}],"src/components/bio.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -26322,8 +26257,6 @@ var _softskills = _interopRequireDefault(require("./softskills.js"));
 var _wordcloud = _interopRequireDefault(require("../../images/wordcloud.png"));
 
 var _timeline = _interopRequireDefault(require("../../images/timeline.png"));
-
-var _MainBackground = _interopRequireDefault(require("./MainBackground.js"));
 
 var _bio = _interopRequireDefault(require("./bio.js"));
 
@@ -26390,13 +26323,31 @@ function (_React$Component) {
     value: function render() {
       var _this2 = this;
 
-      return _react.default.createElement("div", null, _react.default.createElement("div", {
+      return _react.default.createElement("div", {
         className: "cvhome"
-      }, _react.default.createElement(_MainBackground.default, null), _react.default.createElement(_contactbox.default, null), _react.default.createElement("div", {
-        className: "subtitles"
       }, _react.default.createElement("div", {
-        id: "triangle"
-      }), _react.default.createElement("p", {
+        className: "cvhome1"
+      }, _react.default.createElement("div", {
+        className: "leftbox"
+      }, _react.default.createElement(_picture.default, null), _react.default.createElement(_bio.default, {
+        bio: this.state.bio
+      }), _react.default.createElement(_skills.default, {
+        skills: this.state.skills
+      }), _react.default.createElement(_education.default, {
+        education: this.state.education
+      }), _react.default.createElement(_experiences.default, {
+        experiences: this.state.experiences
+      }), _react.default.createElement(_volunteering.default, {
+        volunteering: this.state.volunteering
+      }), _react.default.createElement(_interests.default, {
+        interests: this.state.interests
+      }), _react.default.createElement(_softskills.default, {
+        softskills: this.state.softskills
+      })), _react.default.createElement("div", {
+        className: "rightbox"
+      }, _react.default.createElement("div", {
+        className: "subtitles"
+      }, _react.default.createElement("p", {
         id: "skills",
         onClick: function onClick() {
           return _this2.OpenInfo("skills");
@@ -26407,6 +26358,13 @@ function (_React$Component) {
           return _this2.OpenInfo("education");
         }
       }, " EDUCATION "), _react.default.createElement("p", {
+        id: "softskills",
+        onClick: function onClick() {
+          return _this2.OpenInfo("softskills");
+        }
+      }, " SOFT SKILLS "), _react.default.createElement("div", {
+        id: "triangle"
+      }), _react.default.createElement("p", {
         id: "experiences",
         onClick: function onClick() {
           return _this2.OpenInfo("experiences");
@@ -26421,28 +26379,7 @@ function (_React$Component) {
         onClick: function onClick() {
           return _this2.OpenInfo("interests");
         }
-      }, " INTERESTS "), _react.default.createElement("p", {
-        id: "softskills",
-        onClick: function onClick() {
-          return _this2.OpenInfo("softskills");
-        }
-      }, " SOFT SKILLS "))), _react.default.createElement("div", null, _react.default.createElement("div", {
-        className: "cvhome"
-      }, _react.default.createElement(_picture.default, null), _react.default.createElement(_bio.default, {
-        bio: this.state.bio
-      })), _react.default.createElement(_skills.default, {
-        skills: this.state.skills
-      }), _react.default.createElement(_education.default, {
-        education: this.state.education
-      }), _react.default.createElement(_experiences.default, {
-        experiences: this.state.experiences
-      }), _react.default.createElement(_volunteering.default, {
-        volunteering: this.state.volunteering
-      }), _react.default.createElement(_interests.default, {
-        interests: this.state.interests
-      }), _react.default.createElement(_softskills.default, {
-        softskills: this.state.softskills
-      })));
+      }, " INTERESTS ")), _react.default.createElement(_contactbox.default, null))));
     }
   }]);
 
@@ -26452,7 +26389,7 @@ function (_React$Component) {
 exports.CvHome = CvHome;
 var _default = CvHome;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./images/picture.js":"src/components/images/picture.js","./contactbox.js":"src/components/contactbox.js","./skills.js":"src/components/skills.js","./education.js":"src/components/education.js","./experiences.js":"src/components/experiences.js","./volunteering.js":"src/components/volunteering.js","./interests.js":"src/components/interests.js","./softskills.js":"src/components/softskills.js","../../images/wordcloud.png":"images/wordcloud.png","../../images/timeline.png":"images/timeline.png","./MainBackground.js":"src/components/MainBackground.js","./bio.js":"src/components/bio.js","../style/app.scss":"src/style/app.scss"}],"images/My_PDF.png":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./images/picture.js":"src/components/images/picture.js","./contactbox.js":"src/components/contactbox.js","./skills.js":"src/components/skills.js","./education.js":"src/components/education.js","./experiences.js":"src/components/experiences.js","./volunteering.js":"src/components/volunteering.js","./interests.js":"src/components/interests.js","./softskills.js":"src/components/softskills.js","../../images/wordcloud.png":"images/wordcloud.png","../../images/timeline.png":"images/timeline.png","./bio.js":"src/components/bio.js","../style/app.scss":"src/style/app.scss"}],"images/My_PDF.png":[function(require,module,exports) {
 module.exports = "/My_PDF.8fefb70d.png";
 },{}],"src/components/Homepage.js":[function(require,module,exports) {
 "use strict";
@@ -26714,7 +26651,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49971" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50785" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

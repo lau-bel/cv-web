@@ -10,6 +10,24 @@ $font3 : 'Zeyada', cursive;
 
 
 
+body {
+  background-color: $color3;
+  width: 100%;
+  height: 100%;
+  margin : 0;
+  padding : 0;
+
+
+}
+//page 1 : fox!
+
+.homepage {
+  width: 100%;
+  height: 100%;
+
+}
+
+//ciel étoilé
 @keyframes move-twink-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
@@ -61,14 +79,6 @@ $font3 : 'Zeyada', cursive;
 
 
 
-body {
-  background-color: $color3;
-  width: 100%;
-  margin : 0;
-  padding : 0;
-
-}
-
   .mainElement{
     position: absolute;
     left: 620px;
@@ -117,27 +127,41 @@ body {
     cursor: pointer;
   }
 
-  .backgroundcolor{
-    filter : opacity(40%);
 
-  }
+//cvhome
 
-  .backgroundtrees{
-      width: 1000px;
-      max-height: 100%;
-      display: block;
-      margin: auto;
-  }
+.cvhome {
 
+  background: url("../../images/Polygon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: $color3 ;
+  width: 100%;
+  height: 100vh;
+
+
+}
+
+.cvhome1{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100vh;
+  display : flex;
+  justify-content: space-around;
+}
+
+  .leftbox{
+
+
+
+//CV PIC
   .photocv img {
-
-
-    position: absolute;
+    display : block;
     width: 150px;
     height: 150px;
-    left: 194px;
-    top: 55px;
     border-radius: 50%;
+    margin : 40px auto 40px auto;
 
     @media only screen and (max-width: 1000px) {
 
@@ -150,173 +174,44 @@ body {
     }
 
   }
-  .contactbox{
-    position : absolute;
-    width: 372px;
-    left: 750px;
-    top: 400px;
-    border : solid 1px $color1;
-    border-radius: 2px;
-    padding : 10px;
 
+  // BOXES
+
+  .biotext{
+    width: 372px;
     color : $color2;
     font-family: $font2;
+    font-size: 14px;
+    text-align: justify;
+    margin : 40px auto 40px auto;
 
-    h1 {
-      margin-left: 230px;
-      font-family: $font1;
-      font-size: 24px;
-      font-weight: bold;
-      letter-spacing: 0.1em;
-    }
 
-    .qrcode{
-    float : right;
+
+    p{
+      font-weight: 100;
+
     }
 
     @media only screen and (max-width: 1000px) {
 
-    display : block;
-    position : inherit;
-    margin: auto;
-    padding-top: 30px;
+      display : block;
+      position : inherit;
+      margin: auto;
+      padding-top: 30px;
+      padding-bottom: 30px;
+
 
     }
 
   }
 
-.clickable {
-  margin-left: 210px;
-  margin-top: 20px;
-img {
-  padding-left: 30px;
-  width: 20px;
-}
-}
 
-.biotext{
-  width: 372px;
-  color : $color2;
-  font-family: $font2;
-  font-size: 14px;
-  position : absolute;
-  left: 80px;
-  top: 250px;
-  text-align: justify;
-
-
-  p{
-    font-weight: 100;
-
-  }
-
-  @media only screen and (max-width: 1000px) {
-
-    display : block;
-    position : inherit;
-    margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-
-
-  }
-
-}
-
-#triangle {
-    position: absolute;
-    margin-left: 850px;
-    margin-top: -400px;
-    width: 0;
-    height: 0;
-    border-left: 48px solid transparent;
-    border-right: 48px solid transparent;
-    border-bottom: 80px solid rgba(132, 130, 223, 0.52);
-}
-
-.subtitles {
-  position: absolute;
-  color : $color2;
-  font-family: $font1;
-  margin-left: 5%;
-  margin-top: -5%;
-}
-
-    #skills{
-      margin-left: 870px;
-      margin-top: -475px;
-      width: auto;
-
-    &:hover{
-    cursor: pointer;
-    opacity : 0.5;
-    }
-
-  }
-
-
-
-  #volunteering{
-      margin-left: 845px;
-      margin-top: 25px;
-      width: auto;
-
-    &:hover{
-    cursor: pointer;
-    opacity : 0.5;
-  }
-  }
-  #education{
-    margin-left: 1050px;
-    margin-top: 50px;
-    width: auto;
-
-    &:hover{
-    cursor: pointer;
-    opacity : 0.5;
-  }
-  }
-  #softskills{
-    margin-left: 650px;
-    margin-top: -155px;
-    width: 50%;
-
-    &:hover{
-    cursor: pointer;
-    opacity : 0.5;
-  }
-  }
-  #interests{
-    margin-left: 650px;
-    margin-top: -85px;
-    width: auto;
-    width: 50%;
-
-    &:hover{
-    cursor: pointer;
-    opacity : 0.5;
-  }
-  }
-  #experiences{
-    margin-left: 1050px;
-    margin-top: 100px;
-    width: auto;
-
-    &:hover{
-    cursor: pointer;
-    opacity : 0.5;
-  }
-  }
 
   .skillsbox {
-    position: absolute;
     color : $color2;
     font-family: $font2;
-    margin-top: -400px;
     border-radius: 10px;
     padding: 20px;
-    left : 50px;
-    top : 640px;
     width: 550px;
     background-color: black;
     text-align: justify;
@@ -385,14 +280,10 @@ img {
 
 
   .experiencesbox {
-    position: absolute;
     color : $color2;
     font-family: $font2;
-    margin-top: -400px;
     border-radius: 10px;
     padding: 20px;
-    left : 50px;
-    top : 640px;
     width: 550px;
     background-color: black;
     text-align: justify;
@@ -418,6 +309,151 @@ img {
     }
 
   }
+
+}
+
+
+
+
+.rightbox{
+/// CONTACT BOXES
+
+  .contactbox{
+
+    width: 372px;
+    margin : 40px auto 40px auto;
+    border : solid 1px $color1;
+    border-radius: 2px;
+    padding : 10px;
+    color : $color2;
+    font-family: $font2;
+
+    h1 {
+      margin-left: 230px;
+      font-family: $font1;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+    }
+
+    .qrcode{
+    float : right;
+    }
+
+    @media only screen and (max-width: 1000px) {
+
+    display : block;
+    position : inherit;
+    margin: auto;
+    padding-top: 30px;
+
+    }
+
+  }
+
+.clickable {
+  margin-left: 210px;
+  margin-top: 20px;
+img {
+  padding-left: 30px;
+  width: 20px;
+}
+}
+
+
+/////// ROULETTE
+
+
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 48px solid transparent;
+    border-right: 48px solid transparent;
+    border-bottom: 80px solid rgba(132, 130, 223, 0.52);
+    margin: auto;
+}
+
+.subtitles {
+  color : $color2;
+  font-family: $font1;
+  margin : 40px auto 90px auto;
+
+}
+
+    #skills{
+
+      margin-left : 170px;
+      padding-bottom: 30px;
+      width : 30px;
+
+    &:hover{
+    cursor: pointer;
+    opacity : 0.5;
+    }
+
+  }
+
+
+  #volunteering{
+    margin-left : 140px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width : 30px;
+
+    &:hover{
+    cursor: pointer;
+    opacity : 0.5;
+  }
+  }
+  #education{
+    margin-left : 290px;
+    margin-top: -20px;
+    position : absolute;
+    width : 30px;
+
+    &:hover{
+    cursor: pointer;
+    opacity : 0.5;
+  }
+  }
+  #softskills{
+    margin-top: -20px;
+    position : absolute;
+    width : 100px;
+
+    &:hover{
+    cursor: pointer;
+    opacity : 0.5;
+  }
+  }
+  #interests{
+    margin-top: -100px;
+    position : absolute;
+    width : 30px;
+
+    &:hover{
+    cursor: pointer;
+    opacity : 0.5;
+  }
+  }
+  #experiences{
+    margin-left : 290px;
+    margin-top: 10px;
+    position : absolute;
+    width : 30px;
+
+    &:hover{
+    cursor: pointer;
+    opacity : 0.5;
+  }
+  }
+
+}
+
+
+
+/////MOBILE
 
   .mobileversion {
     display : none;
