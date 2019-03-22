@@ -163,15 +163,7 @@ body {
     border-radius: 50%;
     margin : 40px auto 40px auto;
 
-    @media only screen and (max-width: 1000px) {
 
-    display : block;
-    position : inherit;
-    margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-
-    }
 
   }
 
@@ -192,16 +184,6 @@ body {
 
     }
 
-    @media only screen and (max-width: 1000px) {
-
-      display : block;
-      position : inherit;
-      margin: auto;
-      padding-top: 30px;
-      padding-bottom: 30px;
-
-
-    }
 
   }
 
@@ -340,14 +322,7 @@ body {
     float : right;
     }
 
-    @media only screen and (max-width: 1000px) {
 
-    display : block;
-    position : inherit;
-    margin: auto;
-    padding-top: 30px;
-
-    }
 
   }
 
@@ -471,6 +446,66 @@ img {
 
     @media only screen and (max-width: 1000px) {
 
+
+      .photocvmob img {
+        display : block;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin : 40px auto 40px auto;
+
+        margin: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+
+      }
+
+      .biotextmob{
+        width: 80%;
+        color : $color2;
+        font-family: $font2;
+        font-size: 14px;
+        text-align: justify;
+        margin : 40px auto 40px auto;
+
+
+
+        p{
+          font-weight: 100;
+
+        }
+
+      }
+
+      .contactboxmob{
+        width: 80%;
+        margin : 40px auto 40px auto;
+        border : solid 1px $color1;
+        border-radius: 2px;
+        padding : 10px;
+        color : $color2;
+        font-family: $font2;
+
+        h1 {
+          margin-left: 60%;
+          font-family: $font1;
+          font-size: 24px;
+          font-weight: bold;
+          letter-spacing: 0.1em;
+        }
+
+        .qrcode{
+        float : right;
+        margin-right: 30px;
+        }
+
+        img {
+          margin : 20px;
+        }
+
+      }
+
       .cvhome{
         display : none;
       }
@@ -537,7 +572,7 @@ img {
         padding-left: 20px;
       }
       img {
-        width: 300px;
+        width: 80%;
       }
     }
 
@@ -608,9 +643,20 @@ img {
       width: 100%;
       background-color: black;
       text-align: justify;
+      margin-bottom: 90px;
 
 
+      .texteduc{
 
+        margin-top: 30px;
+      }
+
+      .master1{
+        margin-top: 50px;
+      }
+      .bac{
+        margin-top: 50px;
+      }
       h1 {
         color : $color2;
         font-family: $font1;
@@ -623,6 +669,10 @@ img {
         padding: 0 20px 0 20px;
         font-size: 14px;
 
+
+      }
+      img {
+        position : absolute;
       }
 
     }

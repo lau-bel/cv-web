@@ -126,13 +126,6 @@ body {
   height: 150px;
   border-radius: 50%;
   margin: 40px auto 40px auto; }
-  @media only screen and (max-width: 1000px) {
-    .leftbox .photocv img {
-      display: block;
-      position: inherit;
-      margin: auto;
-      padding-top: 30px;
-      padding-bottom: 30px; } }
 
 .leftbox .biotext {
   width: 372px;
@@ -143,13 +136,6 @@ body {
   margin: 40px auto 40px auto; }
   .leftbox .biotext p {
     font-weight: 100; }
-  @media only screen and (max-width: 1000px) {
-    .leftbox .biotext {
-      display: block;
-      position: inherit;
-      margin: auto;
-      padding-top: 30px;
-      padding-bottom: 30px; } }
 
 .leftbox .skillsbox {
   color: #FFEEC3;
@@ -239,12 +225,6 @@ body {
     letter-spacing: 0.1em; }
   .rightbox .contactbox .qrcode {
     float: right; }
-  @media only screen and (max-width: 1000px) {
-    .rightbox .contactbox {
-      display: block;
-      position: inherit;
-      margin: auto;
-      padding-top: 30px; } }
 
 .rightbox .clickable {
   margin-left: 210px;
@@ -327,6 +307,43 @@ body {
       padding-top: 30px; } }
 
 @media only screen and (max-width: 1000px) {
+  .photocvmob img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 40px auto 40px auto;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .biotextmob {
+    width: 80%;
+    color: #FFEEC3;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    margin: 40px auto 40px auto; }
+    .biotextmob p {
+      font-weight: 100; }
+  .contactboxmob {
+    width: 80%;
+    margin: 40px auto 40px auto;
+    border: solid 1px #8482DF;
+    border-radius: 2px;
+    padding: 10px;
+    color: #FFEEC3;
+    font-family: "Quicksand", sans-serif; }
+    .contactboxmob h1 {
+      margin-left: 60%;
+      font-family: "Zilla Slab", serif;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 0.1em; }
+    .contactboxmob .qrcode {
+      float: right;
+      margin-right: 30px; }
+    .contactboxmob img {
+      margin: 20px; }
   .cvhome {
     display: none; }
   .interestbox {
@@ -375,7 +392,7 @@ body {
       border-left: solid 50px #8482DF;
       padding-left: 20px; }
     .softbox img {
-      width: 300px; }
+      width: 80%; }
   .voluntbox {
     display: block;
     margin: 0 auto;
@@ -426,7 +443,14 @@ body {
     font-family: "Quicksand", sans-serif;
     width: 100%;
     background-color: black;
-    text-align: justify; }
+    text-align: justify;
+    margin-bottom: 90px; }
+    .educationbox .texteduc {
+      margin-top: 30px; }
+    .educationbox .master1 {
+      margin-top: 50px; }
+    .educationbox .bac {
+      margin-top: 50px; }
     .educationbox h1 {
       color: #FFEEC3;
       font-family: "Zilla Slab", serif;
@@ -436,6 +460,8 @@ body {
     .educationbox p {
       padding: 0 20px 0 20px;
       font-size: 14px; }
+    .educationbox img {
+      position: absolute; }
   .skillbox {
     display: block;
     margin: auto;

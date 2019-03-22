@@ -59,11 +59,11 @@ export class Homepage extends React.Component {
 
         <div className = "mobileversion">
 
-                    <div className="photocv">
+                    <div className="photocvmob">
                         <img src={image} alt="photo cv"/>
                     </div>
 
-                    <div className = "biotext" >
+                    <div className = "biotextmob" >
 
                           <p>
                           After getting my Master's degree in History at Liège University and working in different areas,
@@ -76,7 +76,7 @@ export class Homepage extends React.Component {
 
                     </div>
 
-                    <div className="contactbox">
+                    <div className="contactboxmob">
                        <h1> CONTACT </h1>
                        <div className = "qrcode">
                        <img src = {qrcode} alt = "qrcodedl" width="100"/>
@@ -142,6 +142,9 @@ export class Homepage extends React.Component {
                      <h1> EDUCATION </h1>
                        <img  src = {timeline} alt="image puces ul"/>
 
+                       <div className = "texteduc">
+
+
                        <p className = "becode"> 2018 - 2019 | Becode.org <br/>
                          Intensive coding bootcamp
                        </p>
@@ -155,6 +158,7 @@ export class Homepage extends React.Component {
                        <p className = "bac"> 2009-2013 | ULiège<br/>
                            Bachelor’s degree in History, especially Modern history.
                            </p>
+                      </div>
 
                     </div>
 

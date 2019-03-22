@@ -17,7 +17,6 @@ function Education (props){
 
             <h1> EDUCATION </h1>
               <img  src = {timeline} alt="image puces ul"/>
-
               <p className = "becode"> 2018 - 2019 | Becode.org <br/>
                 Intensive coding bootcamp
               </p>
@@ -31,6 +30,7 @@ function Education (props){
               <p className = "bac"> 2009-2013 | ULiège<br/>
                   Bachelor’s degree in History, especially Modern history.
                   </p>
+              
 
            </div>
 

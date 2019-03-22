@@ -26497,14 +26497,14 @@ function (_React$Component) {
       }, _react.default.createElement(_CvHome.default, null)), _react.default.createElement("div", {
         className: "mobileversion"
       }, _react.default.createElement("div", {
-        className: "photocv"
+        className: "photocvmob"
       }, _react.default.createElement("img", {
         src: _photocv.default,
         alt: "photo cv"
       })), _react.default.createElement("div", {
-        className: "biotext"
+        className: "biotextmob"
       }, _react.default.createElement("p", null, "After getting my Master's degree in History at Li\xE8ge University and working in different areas, I was looking for a new challenge. I\u2019m adaptive and curious so I decided to learn web development, and the front end side of it quickly became a new passion for me. It allows me to develop my creativity and keep on learning new things every day. Now, I\u2019m looking forward to working in a challenging and dynamic environment.")), _react.default.createElement("div", {
-        className: "contactbox"
+        className: "contactboxmob"
       }, _react.default.createElement("h1", null, " CONTACT "), _react.default.createElement("div", {
         className: "qrcode"
       }, _react.default.createElement("img", {
@@ -26539,7 +26539,9 @@ function (_React$Component) {
       }, _react.default.createElement("h1", null, " EDUCATION "), _react.default.createElement("img", {
         src: _timeline.default,
         alt: "image puces ul"
-      }), _react.default.createElement("p", {
+      }), _react.default.createElement("div", {
+        className: "texteduc"
+      }, _react.default.createElement("p", {
         className: "becode"
       }, " 2018 - 2019 | Becode.org ", _react.default.createElement("br", null), "Intensive coding bootcamp"), _react.default.createElement("p", {
         className: "master2"
@@ -26547,7 +26549,7 @@ function (_React$Component) {
         className: "master1"
       }, " 2013-2016 | ULi\xE8ge", _react.default.createElement("br", null), "Master\u2019s degree in Modern history, ", _react.default.createElement("br", null), "especially the contemporary history and women history."), _react.default.createElement("p", {
         className: "bac"
-      }, " 2009-2013 | ULi\xE8ge", _react.default.createElement("br", null), "Bachelor\u2019s degree in History, especially Modern history.")), _react.default.createElement("div", {
+      }, " 2009-2013 | ULi\xE8ge", _react.default.createElement("br", null), "Bachelor\u2019s degree in History, especially Modern history."))), _react.default.createElement("div", {
         className: "experiencebox"
       }, _react.default.createElement("h1", null, " WORK EXPERIENCES "), _react.default.createElement("br", null), _react.default.createElement("p", null, " 23 april - 29 juni 2018 | Ath\xE9n\xE9e L\xE9onie de Waha (Li\xE8ge) ", _react.default.createElement("br", null), "Highschool history teacher"), _react.default.createElement("p", null, " 22 february - 29 march 2018 | Institut Communal Marius Renard (Anderlecht)", _react.default.createElement("br", null), "Highschool teacher in History, Philosophy & social studies."), _react.default.createElement("p", null, " 2015-2018 | Maison massin Bakery ", _react.default.createElement("br", null), "Sales Woman ", _react.default.createElement("br", null), "First as a student, then as a temporary worker."), _react.default.createElement("p", null, " 2007-2017 | Student jobs ", _react.default.createElement("br", null), "Several jobs such as saleswoman, museum guide, guarding.")), _react.default.createElement("div", {
         className: "voluntbox"
