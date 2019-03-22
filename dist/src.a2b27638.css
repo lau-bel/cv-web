@@ -33,7 +33,7 @@
   width: 100%;
   height: 30%;
   display: block; }
-  @media (max-width: 575.98px) {
+  @media only screen and (max-width: 1000px) {
     .stars, .twinkling {
       display: none; } }
 
@@ -61,7 +61,7 @@ body {
   left: 620px;
   top: 326px;
   text-align: justify; }
-  @media (max-width: 575.98px) {
+  @media only screen and (max-width: 1000px) {
     .mainElement {
       display: none; } }
 
@@ -92,7 +92,7 @@ body {
   height: 340px;
   left: 100px;
   top: 200px; }
-  @media (max-width: 575.98px) {
+  @media only screen and (max-width: 1000px) {
     .fox {
       display: none; } }
 
@@ -103,7 +103,7 @@ body {
   filter: opacity(40%); }
 
 .backgroundtrees {
-  max-width: 85%;
+  width: 1000px;
   max-height: 100%;
   display: block;
   margin: auto; }
@@ -115,7 +115,7 @@ body {
   left: 194px;
   top: 55px;
   border-radius: 50%; }
-  @media (max-width: 575.98px) {
+  @media only screen and (max-width: 1000px) {
     .photocv img {
       display: block;
       position: inherit;
@@ -141,7 +141,7 @@ body {
     letter-spacing: 0.1em; }
   .contactbox .qrcode {
     float: right; }
-  @media (max-width: 575.98px) {
+  @media only screen and (max-width: 1000px) {
     .contactbox {
       display: block;
       position: inherit;
@@ -166,7 +166,7 @@ body {
   text-align: justify; }
   .biotext p {
     font-weight: 100; }
-  @media (max-width: 575.98px) {
+  @media only screen and (max-width: 1000px) {
     .biotext {
       display: block;
       position: inherit;
@@ -188,8 +188,8 @@ body {
   position: absolute;
   color: #FFEEC3;
   font-family: "Zilla Slab", serif;
-  margin-top: -150px;
-  margin-left: 50px; }
+  margin-left: 5%;
+  margin-top: -5%; }
 
 #skills {
   margin-left: 870px;
@@ -322,14 +322,14 @@ body {
 
 .mobileversion {
   display: none; }
-  @media (max-width: 575.98px) {
+  @media only screen and (max-width: 1000px) {
     .mobileversion {
       display: block;
       position: inherit;
       margin: auto;
       padding-top: 30px; } }
 
-@media (max-width: 575.98px) {
+@media only screen and (max-width: 1000px) {
   .cvhome {
     display: none; }
   .interestbox {
