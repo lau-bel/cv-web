@@ -337,18 +337,22 @@ body {
     color: #FFEEC3;
     font-family: "Quicksand", sans-serif; }
     .contactboxmob h1 {
-      margin-left: 40%;
+      margin-left: 80%;
       font-family: "Zilla Slab", serif;
       font-size: 45px;
       font-weight: bold;
       letter-spacing: 0.1em; }
     .contactboxmob p {
       font-size: 35px; }
-    .contactboxmob img {
-      margin: 20px; }
-      .contactboxmob img .qrcode {
-        float: right;
-        margin-right: 30px; }
+    .contactboxmob .qrcode {
+      float: right;
+      margin-right: 30px;
+      margin-top: 10%; }
+    .contactboxmob .clickable {
+      margin-left: 60%; }
+      .contactboxmob .clickable img {
+        margin: 20px;
+        width: 12%; }
   .cvhome {
     display: none; }
   .interestbox {

@@ -492,7 +492,7 @@ img {
         font-family: $font2;
 
         h1 {
-          margin-left: 40%;
+          margin-left: 80%;
           font-family: $font1;
           font-size: 45px;
           font-weight: bold;
@@ -504,19 +504,28 @@ img {
         }
 
 
-        img {
+
         .qrcode{
         float : right;
         margin-right: 30px;
-
-        }
-
-        margin : 20px;
+        margin-top : 10%;
 
 
         }
 
-      }
+        .clickable{
+          margin-left: 60%;
+        img {
+          margin : 20px;
+          width : 12%;
+
+        }
+        }
+
+
+        }
+
+
 
       .cvhome{
         display : none;
