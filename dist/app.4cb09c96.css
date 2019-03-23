@@ -64,8 +64,9 @@ body {
 .mainElement {
   position: absolute;
   left: 620px;
-  top: 326px;
-  text-align: justify; }
+  top: 50%;
+  text-align: justify;
+  padding-right: 40px; }
   @media only screen and (max-width: 1000px) {
     .mainElement {
       display: none; } }
@@ -89,14 +90,15 @@ body {
   line-height: normal;
   position: absolute;
   left: 450px;
-  top: 150px; }
+  top: 150px;
+  padding-right: 40px; }
 
 .fox {
   position: absolute;
   width: 400.5px;
   height: 340px;
-  left: 100px;
-  top: 200px; }
+  left: 10%;
+  top: 30%; }
   @media only screen and (max-width: 1000px) {
     .fox {
       display: none; } }
@@ -309,8 +311,8 @@ body {
 @media only screen and (max-width: 1000px) {
   .photocvmob img {
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 50%;
+    height: 50%;
     border-radius: 50%;
     margin: 40px auto 40px auto;
     margin: auto;
@@ -324,9 +326,10 @@ body {
     text-align: justify;
     margin: 40px auto 40px auto; }
     .biotextmob p {
-      font-weight: 100; }
+      font-weight: 100;
+      font-size: 35px; }
   .contactboxmob {
-    width: 80%;
+    width: 100%;
     margin: 40px auto 40px auto;
     border: solid 1px #8482DF;
     border-radius: 2px;
@@ -334,16 +337,18 @@ body {
     color: #FFEEC3;
     font-family: "Quicksand", sans-serif; }
     .contactboxmob h1 {
-      margin-left: 60%;
+      margin-left: 40%;
       font-family: "Zilla Slab", serif;
-      font-size: 24px;
+      font-size: 45px;
       font-weight: bold;
       letter-spacing: 0.1em; }
-    .contactboxmob .qrcode {
-      float: right;
-      margin-right: 30px; }
+    .contactboxmob p {
+      font-size: 35px; }
     .contactboxmob img {
       margin: 20px; }
+      .contactboxmob img .qrcode {
+        float: right;
+        margin-right: 30px; }
   .cvhome {
     display: none; }
   .interestbox {
@@ -361,12 +366,12 @@ body {
     .interestbox h1 {
       color: #FFEEC3;
       font-family: "Zilla Slab", serif;
-      font-size: 18px;
+      font-size: 45px;
       border-left: solid 50px #8482DF;
       padding-left: 20px; }
     .interestbox ul {
       display: inline-block;
-      font-size: 14px;
+      font-size: 35px;
       font-weight: 100; }
     .interestbox ul.border {
       border-right: solid 2px #8482DF;
@@ -378,7 +383,7 @@ body {
       /* on affiche une chaîne de caractère */ }
     .interestbox p {
       padding: 0 20px 0 20px;
-      font-size: 14px; }
+      font-size: 35px; }
   .softbox {
     display: block;
     margin: 0 auto;
@@ -388,9 +393,9 @@ body {
     .softbox h1 {
       color: #FFEEC3;
       font-family: "Zilla Slab", serif;
-      font-size: 18px;
+      font-size: 45px;
       border-left: solid 50px #8482DF;
-      padding-left: 20px; }
+      padding-left: 45px; }
     .softbox img {
       width: 80%; }
   .voluntbox {
@@ -407,12 +412,12 @@ body {
     .voluntbox h1 {
       color: #FFEEC3;
       font-family: "Zilla Slab", serif;
-      font-size: 18px;
+      font-size: 45px;
       border-left: solid 50px #8482DF;
       padding-left: 20px; }
     .voluntbox p {
       padding: 0 20px 0 20px;
-      font-size: 14px; }
+      font-size: 35px; }
   .experiencebox {
     display: block;
     margin: 0 auto;
@@ -427,12 +432,12 @@ body {
     .experiencebox h1 {
       color: #FFEEC3;
       font-family: "Zilla Slab", serif;
-      font-size: 18px;
+      font-size: 45px;
       border-left: solid 50px #8482DF;
       padding-left: 20px; }
     .experiencebox p {
       padding: 0 20px 0 20px;
-      font-size: 14px; }
+      font-size: 35px; }
   .educationbox {
     display: block;
     margin: 0 auto;
@@ -454,12 +459,12 @@ body {
     .educationbox h1 {
       color: #FFEEC3;
       font-family: "Zilla Slab", serif;
-      font-size: 18px;
+      font-size: 45px;
       border-left: solid 50px #8482DF;
       padding-left: 20px; }
     .educationbox p {
       padding: 0 20px 0 20px;
-      font-size: 14px; }
+      font-size: 35px; }
     .educationbox img {
       position: absolute; }
   .skillbox {
@@ -475,12 +480,12 @@ body {
     .skillbox h1 {
       color: #FFEEC3;
       font-family: "Zilla Slab", serif;
-      font-size: 18px;
+      font-size: 45px;
       border-left: solid 50px #8482DF;
       padding-left: 20px; }
     .skillbox ul {
       display: inline-block;
-      font-size: 14px;
+      font-size: 35px;
       font-weight: 100; }
     .skillbox ul.border {
       border-right: solid 2px #8482DF;

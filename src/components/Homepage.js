@@ -140,7 +140,6 @@ export class Homepage extends React.Component {
                     <div className="educationbox" >
 
                      <h1> EDUCATION </h1>
-                       <img  src = {timeline} alt="image puces ul"/>
 
                        <div className = "texteduc">
 

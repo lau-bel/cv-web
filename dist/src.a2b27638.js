@@ -26536,10 +26536,7 @@ function (_React$Component) {
         className: "border"
       }, _react.default.createElement("li", null, " Figma "), _react.default.createElement("li", null, " Github "), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("li", null, " Scrum Method "), _react.default.createElement("li", null, " Trello ")), _react.default.createElement("ul", null, _react.default.createElement("li", null, " Final cut pro "), _react.default.createElement("li", null, " File maker pro ")), _react.default.createElement("h1", null, " LANGUAGES "), _react.default.createElement("ul", null, _react.default.createElement("li", null, " English: B2 "), _react.default.createElement("li", null, " Dutch : A1 "), _react.default.createElement("li", null, " French : native speaker "))), _react.default.createElement("div", {
         className: "educationbox"
-      }, _react.default.createElement("h1", null, " EDUCATION "), _react.default.createElement("img", {
-        src: _timeline.default,
-        alt: "image puces ul"
-      }), _react.default.createElement("div", {
+      }, _react.default.createElement("h1", null, " EDUCATION "), _react.default.createElement("div", {
         className: "texteduc"
       }, _react.default.createElement("p", {
         className: "becode"
@@ -26653,7 +26650,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50785" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54196" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
