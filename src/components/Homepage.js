@@ -147,13 +147,16 @@ export class Homepage extends React.Component {
                        <p className = "becode"> 2018 - 2019 | Becode.org <br/>
                          Intensive coding bootcamp
                        </p>
+                       <br/>
                        <p className = "master2"> 2016-2017 | ULiège<br/>
                            Master’ s degree of history highschool teacher
                         </p>
+                        <br/>
                        <p className = "master1"> 2013-2016 | ULiège<br/>
                            Master’s degree in Modern history, <br/>
                            especially the contemporary history and women history.
                        </p>
+                       <br/>
                        <p className = "bac"> 2009-2013 | ULiège<br/>
                            Bachelor’s degree in History, especially Modern history.
                            </p>
@@ -168,14 +171,17 @@ export class Homepage extends React.Component {
                        <p > 23 april - 29 juni 2018 | Athénée Léonie de Waha (Liège) <br/>
                        Highschool history teacher
                         </p>
+                        <br/>
 
                        <p > 22 february - 29 march 2018 | Institut Communal Marius Renard (Anderlecht)<br/>
                        Highschool teacher in History, Philosophy & social studies.
                        </p>
+                       <br/>
                        <p > 2015-2018 | Maison massin Bakery <br/>
                            Sales Woman <br/>
                            First as a student, then as a temporary worker.
                        </p>
+                       <br/>
                        <p > 2007-2017 | Student jobs <br/>
                            Several jobs such as saleswoman, museum guide, guarding.
                            </p>
@@ -191,11 +197,11 @@ export class Homepage extends React.Component {
                       <p > 2016 - 2018 | Collectif "Et ta soeur!"<br/>
                       Activist in a young women empowerment group.
                       </p>
-
+<br/>
                        <p > 2017 | Vie Féminine <br/>
                        Volunteer as a french teacher for immigrant’s women
                         </p>
-
+<br/>
                        <p > 2015-2016 | Fédé <br/>
                            Elected student representative <br/>
                        </p>
