@@ -212,7 +212,7 @@ export class Homepage extends React.Component {
 
                        <p >Wool lover
                      </p>
-                       <p > blogging <br/>
+                       <p > Blogging <br/>
 
                            </p>
 

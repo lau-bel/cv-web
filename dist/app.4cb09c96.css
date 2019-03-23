@@ -322,12 +322,12 @@ body {
     width: 80%;
     color: #FFEEC3;
     font-family: "Quicksand", sans-serif;
-    font-size: 14px;
     text-align: justify;
     margin: 40px auto 40px auto; }
     .biotextmob p {
       font-weight: 100;
-      font-size: 35px; }
+      font-size: 35px;
+      line-height: 60px; }
   .contactboxmob {
     width: 100%;
     margin: 40px auto 40px auto;
@@ -337,7 +337,7 @@ body {
     color: #FFEEC3;
     font-family: "Quicksand", sans-serif; }
     .contactboxmob h1 {
-      margin-left: 80%;
+      margin-left: 60%;
       font-family: "Zilla Slab", serif;
       font-size: 45px;
       font-weight: bold;
@@ -401,7 +401,8 @@ body {
       border-left: solid 50px #8482DF;
       padding-left: 45px; }
     .softbox img {
-      width: 80%; }
+      width: 80%;
+      margin-bottom: 100px; }
   .voluntbox {
     display: block;
     margin: 0 auto;

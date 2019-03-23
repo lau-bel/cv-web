@@ -26552,7 +26552,7 @@ function (_React$Component) {
         className: "voluntbox"
       }, _react.default.createElement("h1", null, " VOLUNTEERING "), _react.default.createElement("br", null), _react.default.createElement("p", null, " 2016 - 2018 | Collectif \"Et ta soeur!\"", _react.default.createElement("br", null), "Activist in a young women empowerment group."), _react.default.createElement("p", null, " 2017 | Vie F\xE9minine ", _react.default.createElement("br", null), "Volunteer as a french teacher for immigrant\u2019s women"), _react.default.createElement("p", null, " 2015-2016 | F\xE9d\xE9 ", _react.default.createElement("br", null), "Elected student representative ", _react.default.createElement("br", null))), _react.default.createElement("div", {
         className: "interestbox"
-      }, _react.default.createElement("h1", null, " INTERESTS "), _react.default.createElement("br", null), _react.default.createElement("p", null, " Tae Bo"), _react.default.createElement("p", null, "Wool lover"), _react.default.createElement("p", null, " blogging ", _react.default.createElement("br", null))), _react.default.createElement("div", {
+      }, _react.default.createElement("h1", null, " INTERESTS "), _react.default.createElement("br", null), _react.default.createElement("p", null, " Tae Bo"), _react.default.createElement("p", null, "Wool lover"), _react.default.createElement("p", null, " Blogging ", _react.default.createElement("br", null))), _react.default.createElement("div", {
         className: "softbox"
       }, _react.default.createElement("h1", null, " SOFT SKILLS "), _react.default.createElement("br", null), _react.default.createElement("img", {
         src: _wordcloud.default,
@@ -26650,7 +26650,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54346" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54442" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

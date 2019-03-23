@@ -468,15 +468,16 @@ img {
         width: 80%;
         color : $color2;
         font-family: $font2;
-        font-size: 14px;
         text-align: justify;
         margin : 40px auto 40px auto;
+
 
 
 
         p{
           font-weight: 100;
           font-size: 35px;
+          line-height: 60px;
 
         }
 
@@ -492,7 +493,7 @@ img {
         font-family: $font2;
 
         h1 {
-          margin-left: 80%;
+          margin-left: 60%;
           font-family: $font1;
           font-size: 45px;
           font-weight: bold;
@@ -594,6 +595,7 @@ img {
       }
       img {
         width: 80%;
+        margin-bottom: 100px;
       }
     }
 
